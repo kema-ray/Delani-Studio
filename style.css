@@ -51,3 +51,7 @@ body {
 .contact {
     margin-top: 40px;
 }
+.contacts {
+    position: relative;
+    text-align: center;  
+}
