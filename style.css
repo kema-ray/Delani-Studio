@@ -45,11 +45,69 @@ body {
  margin-right: 20px;
  margin-left: 20px;
 }
-.port {
-    text-align: center;
+.portfolio .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.portfolio .row .col-md-12 {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#overlay1,
+#overlay2,
+#overlay3,
+#overlay4,
+#overlay5,
+#overlay6,
+#overlay7,
+#overlay8 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#work-overlay1,
+#work-overlay2,
+#work-overlay3,
+#work-overlay4,
+#work-overlay5,
+#work-overlay6,
+#work-overlay7,
+#work-overlay8 {
+    position: absolute;
+    left: 29px;
+    border: 3px solid white;
+    width: 80%;
+    counter-reset: #000;
+    display: none;
+    opacity: 4;
+}
+.overlay-effect {
+    opacity: 0.3;
+}
+.overlay-text {
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.portfolio h2 {
+    margin-top: 20px;
+    font-weight: 500;
+}
+.portfolio img {
+    height: 210px;
+    margin: 20px;
+}
+/* .port {
+    text-align: center;
+} */
 .contact {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .contacts {
     position: relative;
