@@ -103,15 +103,17 @@ body {
     height: 210px;
     margin: 20px;
 }
-/* .port {
-    text-align: center;
-} */
 .contact {
-    margin-top: 20px;
+    background: url(./assets/backgrounds/c_image.jpg);
 }
-.contacts {
-    position: relative;
-    text-align: center;  
+#name,
+#email,
+#merge,
+#btn {
+    opacity: 0.3;
+}
+.Fname {
+    color: white;
 }
 .footer {
     display: flex;
