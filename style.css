@@ -22,6 +22,9 @@ body {
     align-items: center;
     justify-content: center;
 }
+.d-block h2,p {
+    color: white;
+}
 .content {
     text-align: center;
 }
@@ -34,6 +37,9 @@ body {
     /* inset: 0; */
     top: 50%;
     left: 20%;
+}
+.description h2,p {
+    color: white;
 }
 .icon {
     text-align: center;
@@ -106,14 +112,14 @@ body {
 .contact {
     background: url(./assets/backgrounds/c_image.jpg);
 }
+.contacts h2 {
+    color: white;
+}
 #name,
 #email,
 #merge,
 #btn {
     opacity: 0.3;
-}
-.Fname {
-    color: white;
 }
 .footer {
     display: flex;
