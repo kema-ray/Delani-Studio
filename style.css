@@ -38,7 +38,7 @@ body {
 .icon {
     text-align: center;
 }
-/* .images {
+.images {
  display: flex; 
  flex-direction: row; 
  margin-top: 20px; 
@@ -47,4 +47,4 @@ body {
 }
 .port {
     text-align: center;
-} */
+}
