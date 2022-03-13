@@ -24,8 +24,22 @@ body {
 .d-block h2,p {
     color: white;
 }
-.mouse {
-    margin-top: 30%;
+#mouse-click {
+    margin-top: 25%;
+}
+#mouse-click {
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-55px);
+    }
+    60% {
+        transform: translateY(-45px);
+    }
 }
 .content {
     text-align: center;
