@@ -1,7 +1,23 @@
 $(document).ready(function(){
-    $(".information").click(function(){
-        $("#info1").toggle();
-    });
+
+    $( "#design" ).click(function() {
+        $( "#design" ).slideDown('1500').hide('1000');
+        $("#design").show('1500');
+        $( ".information" ).toggle();
+      });
+
+      $( "#development" ).click(function() {
+        $( "#development" ).slideDown('1500').hide('1000');
+        $("#development").show('1500');
+        $( ".information1" ).toggle();
+      });
+
+      $( "#product" ).click(function() {
+        $( "#product" ).slideDown('1500').hide('1000');
+        $("#product").show('1500');
+        $( ".information2" ).toggle();
+      });
+
 
 
 let overlayTotalNumber = ($(".overlay").toArray().length);
