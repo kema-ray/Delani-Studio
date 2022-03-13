@@ -24,6 +24,9 @@ body {
 .d-block h2,p {
     color: white;
 }
+.mouse {
+    margin-top: 30%;
+}
 .content {
     text-align: center;
 }
@@ -54,8 +57,11 @@ body {
     
 }
 
-.dev, .product {
+#development-image, #product {
     padding-left: 100%;
+}
+#design {
+    padding-right: 100%;
 }
 .information,
 .information1,
@@ -126,7 +132,7 @@ body {
 }
 .contact {
     background: url(./assets/backgrounds/c_image.jpg);
-    height: auto;
+    height: 100%;
     width: 100%;
 }
 .contacts h2 {
@@ -138,7 +144,6 @@ body {
 #btn {
     opacity: 0.2;
 }
-
 /* .footer {
     display: flex;
     justify-content: center;

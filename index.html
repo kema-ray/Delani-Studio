@@ -44,23 +44,24 @@
                 <div class="info">
                   <h2 class="icon">What we do</h2>
                   <div class="images">
-                    <div class="design">
+                    <div id="design">
                       <img src="./assets/services_icons/design_icon.png" alt="">
                       <h6>Design</h6>
                     </div>
                     <div class="information">
-                      <p id="info1">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing</p>
-                      <p id="info2">Throughout your project,our designers create and implement visual design and workflows,solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                      <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing</p>
+                      <p>Throughout your project,our designers create and implement visual design and workflows,solicit user feedback and work with you to make sure what gets built is what is needed.</p>
                     </div>
-                    <div class="dev">
+                    <div id="development">
                       <img src="./assets/services_icons/dev_icon.png" alt="">
                       <h6>Development</h6>
                     </div>
                     <div class="information1">
                       <p>All engineers are fluent in the latest enterprise,mobile and web development technologies.</p>
                       <p>They collaborate with your team to write and improve code on a daily basis, using proven practices such as test driven development and pair programming.</p>
+                      
                     </div>
-                    <div class="product">
+                    <div id="product">
                       <img src="./assets/services_icons/product_icon.png" alt="">
                       <h6>Product Management</h6>
                     </div>
@@ -128,23 +129,23 @@
               <div class="contact">
                 <div class="contacts">
                   <h2>CONTACT US</h2>
-                  <form action="">
+                  <form action="https://formspree.io/f/xdobdonk" method="post">
                     <div class="row">
                       <div class="col-md-4">
                       <div class="form-group">
-                        <input id="name" type="text" name="Fname" placeholder="Name..." class="form-control">
+                        <input id="name" type="text" name="name" placeholder="Name..." class="form-control" required!>
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="form-group">
-                        <input id="email" type="email" name="EMAIL" placeholder="Email..." class="form-control">
+                        <input id="email" type="email" name="EMAIL" placeholder="Email..." class="form-control" required!>
                       </div>
                     </div>
                     </div>
                     <div class="row">
                       <div class="col-md-12">
                         <div class="form-group">
-                          <textarea id="merge" type="text" placeholder="Your message here..." cols="100" rows="10"></textarea>
+                          <textarea id="text" type="text" placeholder="Your message here..." cols="100" rows="10" name="Message"></textarea>
                         </div>
                       </div>
                       <button id="btn" type="submit" class="btn-submit">Submit</button>
@@ -152,11 +153,17 @@
                   </form>
                </div>
               </div>
-              <div class="footer">
-                <div class="icons">
-                  <img src="./assets/social_icons/twitter.png" alt="twitter">
-                </div>
-              </div>
+              <footer>
+                <img src="./assets/social_icons/twitter.png" alt="twitter">
+                  <img src="./assets/social_icons/dribble.png" alt="dribble">
+                  <img src="./assets/social_icons/facebook.png" alt="facebook">
+                  <img src="./assets/social_icons/g_plus.png" alt="google">
+                  <img src="./assets/social_icons/skype.png" alt="skype">
+                  <img src="./assets/social_icons/you_tube.png" alt="">
+                  <img src="./assets/social_icons/behance.png" alt="">
+                  <img src="./assets/social_icons/pinterest.png" alt="">
+                  <img src="./assets/social_icons/flickr.png" alt="">
+              </footer>
                
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
