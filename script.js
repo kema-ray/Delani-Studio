@@ -1,6 +1,9 @@
 $(document).ready(function(){
+    $(".information").click(function(){
+        $("#info1").toggle();
+    });
 
-let imagesTotalNumber = ($())
+
 let overlayTotalNumber = ($(".overlay").toArray().length);
 for (let overlayNumber = 1; overlayNumber<=overlayTotalNumber;overlayNumber++){
     $(`#overlay${overlayNumber}`).mouseover(function() {
