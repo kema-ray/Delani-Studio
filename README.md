@@ -7,10 +7,7 @@
 ## Description
 
 This project is a web application for Delani studio that welcomes clients to its website, shows details about the services it offers, what we do in details, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios. 
-
-## Live Page 
  
-
 
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
@@ -35,9 +32,7 @@ This project is a web application for Delani studio that welcomes clients to its
 |  Enter your name  |   Oyondi Rachel |     |
 | Enter your Email Address  | rachelkemuma99@gmail.com |   |
 | Enter your message or comment   |  I like your work and would like to collaborate with you.     |     |
-| Press Submit|     |Pop up "Thanks!
-The form was submitted successfully.
-
+| Press Submit|     |Pop up "Thanks!The form was submitted successfully.
 Go back.|
 
 ## Known Bugs
